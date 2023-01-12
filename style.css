@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(24, 24, 24);
+}
+
+.card-avatar {
+  height: 300px;
+  width: 320px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 30px;
+}
+
+.card-body-header {
+    text-align: center;
+}
+
+.name {
+    font-weight: 900;
+    margin: 5px;
+    margin-top:10px;
+}
+
+.job {
+    font-weight: 300;
+    margin: 5px;
+    color: rgba(11, 150, 242, 0.877);
+}
+
+.card-body-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 33px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.button-Email {
+    background-color: #fff;
+
+}
+
+.icon-gmail {
+    height: 14px;
+    margin-right: 3px;
+}
+
+.button-Linkedln {
+    background-color: #0a66c2;
+    color: #fff;
+}
+
+.icon-linkedln {
+    height: 14px;
+    margin-right: 3px;
+}
+
+.body-title {
+    margin-bottom: 2px;
+
+}
+
+.body-p {
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: 300;
+}
