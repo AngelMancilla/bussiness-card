@@ -17,8 +17,7 @@ body {
 }
 
 .card-avatar {
-  height: 300px;
-  width: 320px;
+  width: 450px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -27,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-inline: 30px;
+  width: 391px;
 }
 
 .card-body-header {
@@ -48,7 +48,7 @@ body {
 .card-body-buttons {
     margin-top: 10px;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .button {
@@ -58,15 +58,20 @@ body {
     height: 33px;
     font-size: 17px;
     padding: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    opacity: 0.7;
 }
 
 .button-Email {
     background-color: #fff;
-
 }
 
 .icon-gmail {
-    height: 14px;
+    height: 18px;
     margin-right: 3px;
 }
 
@@ -87,6 +92,28 @@ body {
 
 .body-p {
     margin-top: 2px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 300;
+    white-space: pre-wrap;
+}
+
+.card-footer {
+    margin-top: 5px;
+    background-color: rgb(16, 16, 16);
+    width: 450px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    width: 35px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.footer-icon:hover {
+    opacity: 0.7;
 }
