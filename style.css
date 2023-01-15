@@ -112,6 +112,7 @@ body {
     margin-top: 8px;
     margin-bottom: 8px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .footer-icon:hover {
