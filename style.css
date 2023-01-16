@@ -118,3 +118,45 @@ body {
 .footer-icon:hover {
     opacity: 0.7;
 }
+
+@media (max-width:460px) {
+    .card-avatar {
+        width: 400px;
+    }
+
+    .card-body {
+        width: 341px;
+    }
+
+    .card-footer {
+        width: 400px;
+    }
+}
+
+@media (max-width:410px) {
+    .card-avatar {
+        width: 350px;
+    }
+
+    .card-body {
+        width: 291px;
+    }
+
+    .card-footer {
+        width: 350px;
+    }
+}
+
+@media (max-width:360px) {
+    .card-avatar {
+        width: 300px;
+    }
+
+    .card-body {
+        width: 241px;
+    }
+
+    .card-footer {
+        width: 300px;
+    }
+}

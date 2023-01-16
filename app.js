@@ -22,7 +22,7 @@ Array.from(cardFooter).forEach(footer => {
                 window.open("https://m.facebook.com/profile.php?id=100060081411013&mibextid=ZbWKwL", "_blank")
                 break;
             case 'icon-instagram':
-                    console.log("HOLA INSTA")
+                window.open("https://www.instagram.com/angel.xmg/?next=%2F", "_blank")
                 break;
             case 'icon-github':
                 window.open("https://github.com/AngelMancilla", "_blank")
